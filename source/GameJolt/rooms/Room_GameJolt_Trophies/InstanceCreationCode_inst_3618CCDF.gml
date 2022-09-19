@@ -1,0 +1,2 @@
+
+text = "[Fetch All Trophies]";
