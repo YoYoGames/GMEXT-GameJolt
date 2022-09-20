@@ -1,0 +1,2 @@
+
+text = "Auto Ping"
