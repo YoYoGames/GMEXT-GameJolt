@@ -169,7 +169,7 @@ function GameJolt_Scores_Add(table_id,_score,sort,extra_data,callback_success = 
 									"sort",string(sort))
 	
 	if(extra_data != "")
-		url = Scr_GameJolt_Parameters("extra_data",extra_data)
+		url = Scr_GameJolt_Parameters(url,"extra_data",extra_data)
 	
 	url = Scr_GameJolt_Parameters(url,"signature",md5_string_utf8(url+extension_get_option_value("GameJolt","PrivateKey")))
 	
@@ -186,7 +186,7 @@ function GameJolt_Scores_Add_Guest(guest,table_id,_score,sort,extra_data,callbac
 									"score",_score,
 									"sort",string(sort))
 	if(extra_data != "")
-		url = Scr_GameJolt_Parameters("extra_data",extra_data)
+		url = Scr_GameJolt_Parameters(url,"extra_data",extra_data)
 	
 	url = Scr_GameJolt_Parameters(url,"signature",md5_string_utf8(url+extension_get_option_value("GameJolt","PrivateKey")))
 	
