@@ -13,11 +13,11 @@ if(sprite_exists(spr))
 	
 	draw_set_halign(fa_center)
 	draw_set_valign(fa_bottom)
-	draw_set_font(Font_YoYo_30)
+	draw_set_font(fnt_gm_20)
 	draw_text(x,y-60,title)
 
 	draw_set_valign(fa_top)
-	draw_set_font(Font_YoYo_20)
+	draw_set_font(fnt_gm_15)
 	draw_text_ext_transformed(x,y+60,description,23,200,1,1,0)
 }
 

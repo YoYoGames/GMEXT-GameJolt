@@ -1,2 +1,2 @@
-font = Font_YoYo_50;
+font = fnt_gm_30;
 text = "GameJolt API Library"

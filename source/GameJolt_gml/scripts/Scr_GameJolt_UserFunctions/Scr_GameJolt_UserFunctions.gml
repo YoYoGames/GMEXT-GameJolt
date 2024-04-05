@@ -1,6 +1,4 @@
 
-GameJolt_FakeExtOptionsInit()
-
 global.GameJolt_Auth_Confirmed = false;
 global.GameJolt_Username = "";
 global.GameJolt_GameToken = "";

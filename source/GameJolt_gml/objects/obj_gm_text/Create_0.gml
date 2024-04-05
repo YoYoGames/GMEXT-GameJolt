@@ -1,4 +1,4 @@
 
 text = ""
-font = Font_YoYo_30
+font = fnt_gm_20
 color = c_white

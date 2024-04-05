@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_YoYo_button",
+  "%Name":"obj_gm_textbox",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_YoYo_button",
+  "name":"obj_gm_textbox",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/YoYo Extensions Assets/Objects.yy",
   },
   "parentObjectId":{
-    "name":"Obj_YoYo_text",
-    "path":"objects/Obj_YoYo_text/Obj_YoYo_text.yy",
+    "name":"obj_gm_text",
+    "path":"objects/obj_gm_text/obj_gm_text.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_YoYo_button",
-    "path":"sprites/Spr_YoYo_button/Spr_YoYo_button.yy",
+    "name":"spr_gm_textbox",
+    "path":"sprites/spr_gm_textbox/spr_gm_textbox.yy",
   },
   "spriteMaskId":null,
   "visible":true,

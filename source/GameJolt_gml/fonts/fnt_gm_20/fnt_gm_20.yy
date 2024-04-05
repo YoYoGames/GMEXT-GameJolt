@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"Font_YoYo_30",
+  "%Name":"fnt_gm_20",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":0,
@@ -237,7 +237,7 @@
   "last":0,
   "lineHeight":0,
   "maintainGms1Font":false,
-  "name":"Font_YoYo_30",
+  "name":"fnt_gm_20",
   "parent":{
     "name":"Font",
     "path":"folders/YoYo Extensions Assets/Font.yy",

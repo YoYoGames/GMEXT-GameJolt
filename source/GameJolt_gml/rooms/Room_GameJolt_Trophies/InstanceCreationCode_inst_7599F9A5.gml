@@ -1,3 +1,3 @@
 
-font = Font_YoYo_20;
+font = fnt_gm_15;
 text = "(*) Click the trophies to toggle win/lose!";

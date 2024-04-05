@@ -17,8 +17,8 @@
   "extensionVersion":"1.0.3",
   "files":[
     {"$GMExtensionFile":"","%Name":"","constants":[],"copyToTargets":-1,"filename":"GameJolt.ext","final":"","functions":[
-        {"$GMExtensionFunction":"","%Name":"GameJolt_FakeExtOptionsInit","argCount":0,"args":[],"documentation":"","externalName":"GameJolt_FakeExtOptionsInit","help":"GameJolt_FakeExtOptionsInit()","hidden":false,"kind":4,"name":"GameJolt_FakeExtOptionsInit","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
-      ],"init":"","kind":4,"name":"","order":[],"origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
+        {"$GMExtensionFunction":"","%Name":"GameJolt_Dummy","argCount":0,"args":[],"documentation":"","externalName":"GameJolt_Dummy","help":"GameJolt_Dummy()","hidden":true,"kind":4,"name":"GameJolt_Dummy","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
+      ],"init":"GameJolt_Dummy","kind":4,"name":"","order":[],"origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject":"",
   "hasConvertedCodeInjection":true,
