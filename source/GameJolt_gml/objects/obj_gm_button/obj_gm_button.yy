@@ -7,10 +7,14 @@
   ],
   "managed":true,
   "name":"obj_gm_button",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gm_text","path":"objects/obj_gm_text/obj_gm_text.yy",},"propertyId":{"name":"font","path":"objects/obj_gm_text/obj_gm_text.yy",},"resource":{"name":"fnt_gm_30","path":"fonts/fnt_gm_30/fnt_gm_30.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fnt_gm_20",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gm_text","path":"objects/obj_gm_text/obj_gm_text.yy",},"propertyId":{"name":"halign","path":"objects/obj_gm_text/obj_gm_text.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fa_middle",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gm_text","path":"objects/obj_gm_text/obj_gm_text.yy",},"propertyId":{"name":"valign","path":"objects/obj_gm_text/obj_gm_text.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fa_center",},
+  ],
   "parent":{
     "name":"Objects",
-    "path":"folders/YoYo Extensions Assets/Objects.yy",
+    "path":"folders/GM Extensions Asset/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_gm_text",
@@ -29,7 +33,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"locked","filters":[],"listItems":[],"multiselect":false,"name":"locked","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

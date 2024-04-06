@@ -6,10 +6,13 @@
   ],
   "managed":true,
   "name":"obj_gm_textbox",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gm_text","path":"objects/obj_gm_text/obj_gm_text.yy",},"propertyId":{"name":"halign","path":"objects/obj_gm_text/obj_gm_text.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fa_left",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gm_text","path":"objects/obj_gm_text/obj_gm_text.yy",},"propertyId":{"name":"valign","path":"objects/obj_gm_text/obj_gm_text.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fa_top",},
+  ],
   "parent":{
     "name":"Objects",
-    "path":"folders/YoYo Extensions Assets/Objects.yy",
+    "path":"folders/GM Extensions Asset/Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_gm_text",
@@ -28,7 +31,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"margin","filters":[],"listItems":[],"multiselect":false,"name":"margin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

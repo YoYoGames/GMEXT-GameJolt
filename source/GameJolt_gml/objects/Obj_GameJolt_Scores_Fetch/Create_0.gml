@@ -9,7 +9,7 @@ func_succcess = function(scoresArray)
 {
 	for(var a = 0 ; a < array_length(scoresArray) ; a++)
 	{
-		var ins = instance_create_depth(600,250+a*125,0,Obj_GameJolt_Scores_Entry)
+		var ins = instance_create_depth(600,150+a*125,0,Obj_GameJolt_Scores_Entry)
 		var scoreData = scoresArray[a];
 		ins._score = scoreData.score
 		ins.sort = scoreData.sort

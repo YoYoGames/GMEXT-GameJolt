@@ -2,7 +2,6 @@
   "$GMObject":"",
   "%Name":"obj_gm_text",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
@@ -10,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
-    "path":"folders/YoYo Extensions Assets/Objects.yy",
+    "path":"folders/GM Extensions Asset/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,7 +25,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"text","filters":[],"listItems":[],"multiselect":false,"name":"text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Empty","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"font","filters":[
+        "GMFont",
+      ],"listItems":[],"multiselect":false,"name":"font","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_gm_30","path":"fonts/fnt_gm_30/fnt_gm_30.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_gm_30","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"color","filters":[],"listItems":[],"multiselect":false,"name":"color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFFFFFF","varType":7,},
+    {"$GMObjectProperty":"v1","%Name":"halign","filters":[],"listItems":[],"multiselect":false,"name":"halign","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fa_left","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"valign","filters":[],"listItems":[],"multiselect":false,"name":"valign","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fa_middle","varType":4,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
