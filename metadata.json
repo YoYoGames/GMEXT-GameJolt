@@ -1,18 +1,1 @@
-{
-    "gitHubUrl": "https://github.com/YoYoGames/GMEXT-GameJolt",
-    "projectFile": "source/GameJolt/Game Jolt.yyp",
-    "projectVersion": "LTS22",
-    "releaseTemplate": "templates/release_body.md",
-    "extensionMetaData": [
-        {
-            "extensionFile": "source/GameJolt/extensions/GameJolt/GameJolt.yy",
-            "packageId": "com.yoyogames.gamejoltapi",
-            "packageName": "GameJolt API Library",
-            "packageVersion": "1.0.3",
-            "packageFormat": "LTS22",
-            "includeFolders": null,
-            "includeResources": null,
-            "excludeResources": null
-        }
-    ]
-}
+{"gitHubUrl":"https://github.com/YoYoGames/GMEXT-GameJolt","projectFile":"source/GameJolt_gml/Game Jolt.yyp","projectVersion":"LTS22","releaseTemplate":"templates/release_body.md","extensionMetaData":[{"extensionFile":"source/GameJolt_gml/extensions/GameJolt/GameJolt.yy","packageId":"com.yoyogames.gamejoltapi","packageName":"GameJolt API Library","packageVersion":"1.1.0","packageFormat":"LTS22","includeFolders":null,"includeResources":null,"excludeFolders":null,"excludeResources":null}]}

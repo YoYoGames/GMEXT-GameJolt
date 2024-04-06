@@ -14,7 +14,7 @@
   "copyToTargets":-1,
   "description":"",
   "exportToGame":true,
-  "extensionVersion":"1.0.3",
+  "extensionVersion":"1.1.0",
   "files":[
     {"$GMExtensionFile":"","%Name":"","constants":[],"copyToTargets":-1,"filename":"GameJolt.ext","final":"","functions":[
         {"$GMExtensionFunction":"","%Name":"GameJolt_Dummy","argCount":0,"args":[],"documentation":"","externalName":"GameJolt_Dummy","help":"GameJolt_Dummy()","hidden":true,"kind":4,"name":"GameJolt_Dummy","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":1,},
