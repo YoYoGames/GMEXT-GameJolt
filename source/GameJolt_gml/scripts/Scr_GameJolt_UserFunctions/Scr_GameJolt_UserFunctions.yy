@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"Scr_GameJolt_UserFunctions",
   "isCompatibility":false,
   "isDnD":false,

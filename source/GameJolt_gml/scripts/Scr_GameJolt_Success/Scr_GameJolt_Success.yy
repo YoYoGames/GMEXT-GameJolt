@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"Scr_GameJolt_Success",
   "isCompatibility":false,
   "isDnD":false,

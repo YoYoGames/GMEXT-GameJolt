@@ -3,6 +3,9 @@
 GameJolt_Trophies_Fetch("151442",
 						function(trophyData)
 						{
+							if(is_undefined(trophyData))
+								exit
+							
 							var ins = instance_create_depth(x,y,0,Obj_GameJolt_Trophy);
 							ins.ID = trophyData.id;
 							ins.title = trophyData.title;
