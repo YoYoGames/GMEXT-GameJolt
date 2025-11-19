@@ -303,7 +303,7 @@
  * 
  * @event callback_success
  * @desc Triggered when the request succeeds
- * @member {array} table_ids An array of `table_id`
+ * @member {array[struct.TableData]} table_ids An array of structs holding the table data
  * @event_end
  * 
  * @event callback_failed
@@ -345,6 +345,18 @@
  */
 
 /**
+ * @struct TableData
+ * @desc This struct contains details that describe a table.
+ * 
+ * @member {real} id The ID of the score table.
+ * @member {string} name The developer-defined name of the score table.
+ * @member {string} description The developer-defined description of the score table.
+ * @member {boolean} primary Whether or not this is the default score table. Scores are submitted to the primary table by default.
+ * 
+ * @struct_end
+ */
+
+/**
  * @module scores
  * @title Scores
  * @desc Implement leaderboards in your game to allow anyone to battle it out for the top spots. You create the leaderboards, you control the scoring. You can even allow guests to score without a Game Jolt account.
@@ -357,6 +369,7 @@
  * @section_struct Structs
  * @desc Extra details on structs that are returned as score fetching results:
  * @ref ScoreData
+ * @ref TableData
  * @section_end
  * 
  * @module_end

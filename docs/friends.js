@@ -1,13 +1,13 @@
 /**
  * @func GameJolt_Friends
- * @desc This function queries an array of `user_id` represent the a user's friends (further information can be queried using the ${function.GameJolt_User_FetchWithUserID}).
+ * @desc This function queries an array of `user_id`s representing the user's friends (further information can be queried using the ${function.GameJolt_User_FetchWithUserID}).
  * 
  * @param {function} [callback_success] The callback function executed if the request succeeds
  * @param {function} [callback_failed] The callback function executed if the request fails
  * 
  * @event callback_success
  * @desc Triggered when the request succeeds
- * @member {array} user_ids An array of `user_id`s
+ * @member {array[string]} user_ids An array of `user_id`s
  * @event_end
  * 
  * @event callback_failed
