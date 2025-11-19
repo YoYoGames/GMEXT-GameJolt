@@ -158,7 +158,7 @@
 /**
  * @module sessions
  * @title Sessions
- * @desc Track when and how long each player is active in your game. You can then view stats such as avg. play time per session, total time played across users, and even see how many people are playing your game in real time.
+ * @desc Track when and how long each player is active in your game. You can then view stats such as average play time per session, total time played across users, and even see how many people are playing your game in real time.
  * 
  * @section_func Functions
  * @desc The following functions are provided for working with sessions:

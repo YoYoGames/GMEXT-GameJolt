@@ -189,7 +189,8 @@
  *     function(message)
  *     {
  *         show_message_async("Error: " + message);
- *     });
+ *     }
+ * );
  * ```
  * The code sample above will log in a user to a specific game using the game token for that game. After a successful login it creates an instance of `objPlayer` in the room (using the ${function.instance_create_depth} function), otherwise it will display an error message.
  * @func_end

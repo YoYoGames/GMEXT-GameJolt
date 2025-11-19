@@ -195,6 +195,7 @@
  * @event_end
  * 
  * @example
+ * ```gml
  * GameJolt_DataStorage_Remove("gameoverCount",
  *     function()
  *     {
@@ -205,6 +206,7 @@
  *         show_message_async(message);
  *     }
  * );
+ * ```
  * In the code sample above we perform an action to remove a key (`"gameoverCount"`) from the **global data storage**. We then provide two methods that will display the success of failure of the task.
  * @func_end
  */
@@ -288,7 +290,7 @@
  * 
  * @param {string} key The identifier key of the data
  * @param {real|string|struct} data The data value used by the operation
- * @param {string} operation The operation to be performed with the provided data (see [Operations Table](#Operations_Table))
+ * @param {string} operation The operation to be performed with the provided data (see [Operations Table](#operations-table))
  * @param {function} [callback_success] The callback function executed if the request succeeds
  * @param {function} [callback_failed] The callback function executed if the request fails
  * 
@@ -325,7 +327,7 @@
  * 
  * @param {string} key The identifier key of the data
  * @param {real|string|struct} data The data value used by the operation
- * @param {string} operation The operation to be performed with the provided data (see [Operations Table](#Operations_Table))
+ * @param {string} operation The operation to be performed with the provided data (see [Operations Table](#operations-table))
  * @param {function} [callback_success] The callback function executed if the request succeeds
  * @param {function} [callback_failed] The callback function executed if the request fails
  * 

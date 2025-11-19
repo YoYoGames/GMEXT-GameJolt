@@ -92,14 +92,14 @@
  * 
  *     var _scoreData = scoresArray[0];
  * 
- *     var _score = scoreData.score;
- *     var _sort = scoreData.sort;
- *     var _extra_data = scoreData.extra_data;
- *     var _user = scoreData.user;
- *     var _user_id = scoreData.user_id;
- *     var _guest = scoreData.guest;
- *     var _stored = scoreData.stored;
- *     var _stored_timestamp = scoreData.stored_timestamp;
+ *     var _score = _scoreData.score;
+ *     var _sort = _scoreData.sort;
+ *     var _extra_data = _scoreData.extra_data;
+ *     var _user = _scoreData.user;
+ *     var _user_id = _scoreData.user_id;
+ *     var _guest = _scoreData.guest;
+ *     var _stored = _scoreData.stored;
+ *     var _stored_timestamp = _scoreData.stored_timestamp;
  * });
  * ```
  * The code above will fetch a total of `10` scores from a given `table_id` and on success collect all the data that is presented from the first entry in the returned array.
@@ -133,14 +133,14 @@
  * 
  *     var _scoreData = scoresArray[0];
  * 
- *     var _score = scoreData.score;
- *     var _sort = scoreData.sort;
- *     var _extra_data = scoreData.extra_data;
- *     var _user = scoreData.user;
- *     var _user_id = scoreData.user_id;
- *     var _guest = scoreData.guest;
- *     var _stored = scoreData.stored;
- *     var _stored_timestamp = scoreData.stored_timestamp;
+ *     var _score = _scoreData.score;
+ *     var _sort = _scoreData.sort;
+ *     var _extra_data = _scoreData.extra_data;
+ *     var _user = _scoreData.user;
+ *     var _user_id = _scoreData.user_id;
+ *     var _guest = _scoreData.guest;
+ *     var _stored = _scoreData.stored;
+ *     var _stored_timestamp = _scoreData.stored_timestamp;
  * });
  * ```
  * The code above will fetch a total of `10` scores from a given `table_id` that are better than the value `9999` and on success collect all the data that is presented from the first entry in the returned array.
@@ -247,14 +247,14 @@
  * 
  *     var _scoreData = scoresArray[0];
  * 
- *     var _score = scoreData.score;
- *     var _sort = scoreData.sort;
- *     var _extra_data = scoreData.extra_data;
- *     var _user = scoreData.user;
- *     var _user_id = scoreData.user_id;
- *     var _guest = scoreData.guest;
- *     var _stored = scoreData.stored;
- *     var _stored_timestamp = scoreData.stored_timestamp;
+ *     var _score = _scoreData.score;
+ *     var _sort = _scoreData.sort;
+ *     var _extra_data = _scoreData.extra_data;
+ *     var _user = _scoreData.user;
+ *     var _user_id = _scoreData.user_id;
+ *     var _guest = _scoreData.guest;
+ *     var _stored = _scoreData.stored;
+ *     var _stored_timestamp = _scoreData.stored_timestamp;
  * });
  * ```
  * The code above will fetch a total of `10` scores from a given `table_id` that are worse than the value `10` and on success collect all the data that is presented from the first entry in the returned array.
